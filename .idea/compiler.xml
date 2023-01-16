@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="juc" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="juc" target="8" />
       <module name="juc1" target="8" />
+      <module name="netty" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
